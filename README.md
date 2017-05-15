@@ -1,7 +1,8 @@
 ## What is this?
 
-1. This is a simple app with nodejs and mysql.
-1. Basic codes to insert, update, delete and select records from mysql
+This is a simple app with nodejs and mysql.
+
+Basic codes to insert, update, delete and select records from mysql
 
 ## Libraries and tools
 
