@@ -1,0 +1,21 @@
+doctype html
+html
+  head
+    meta(charset='UTF-8')
+  body
+    h1
+      a(href='/home') Client Management System
+    ul
+      each company in companies
+        li
+          a(href='/home/'+company.id)= company.companyName
+    article
+      form(action='/home/add' method='post')
+        p
+          input(type='text' name='companyName' placeholder='company name')
+        p
+          textarea(name='address' placeholder='client address')
+        p
+          input(type='text' name='manager' placeholder='manager in charge')
+        p
+          input(type='submit')

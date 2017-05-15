@@ -1,0 +1,25 @@
+{
+  "name": "nodejs_mysql",
+  "version": "1.0.0",
+  "description": "nodejs with mySql",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jongbochung/nodejs_mysql.git"
+  },
+  "author": "JASON CHUNG",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jongbochung/nodejs_mysql/issues"
+  },
+  "homepage": "https://github.com/jongbochung/nodejs_mysql#readme",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "jade": "^1.11.0",
+    "mysql": "^2.13.0"
+  }
+}

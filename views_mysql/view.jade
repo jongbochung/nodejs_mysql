@@ -1,0 +1,27 @@
+doctype html
+html
+  head
+    meta(charset='UTF-8')
+  body
+    h1
+      a(href='/home') Client Management System
+    ul
+      each company in companies
+        li
+          a(href='/home/'+company.id)= company.companyName
+    article
+      if company
+        h2= company.companyName
+        = company.address
+        p
+        div= 'Manger : '+company.manager
+      else
+        h2 Welcome
+    ul
+      li
+        a(href='/home/add') Add New Client
+      if company
+        li
+          a(href='/home/'+company.id+'/edit') edit
+        li
+          a(href='/home/'+company.id+'/delete') delete
