@@ -12,14 +12,16 @@ Basic codes to insert, update, delete and select records from mysql
 * jade
 
 ## Create table
- 1. CREATE TABLE `client` (
- 1.  `id` int(11) NOT NULL AUTO_INCREMENT,
- 1.  `companyName` varchar(30) NOT NULL,
- 1.  `address` varchar(200) NOT NULL,
- 1.  `manager` varchar(30) NOT NULL,
- 1.  PRIMARY KEY (id)
- 1. ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
+```
+  CREATE TABLE `client` (
+   `id` int(11) NOT NULL AUTO_INCREMENT,
+   `companyName` varchar(30) NOT NULL,
+   `address` varchar(200) NOT NULL,
+   `manager` varchar(30) NOT NULL,
+   PRIMARY KEY (id)
+  ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+```
 ## Running locally
 
 1. Clone the repository
